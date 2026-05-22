@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Selection Portal</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <header>
+        <h1>🎓 Course Selection Portal</h1>
+        <p>Select your favorite course and begin your learning journey</p>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Upgrade Your Skills 🚀</h2>
+            <p>
+                Browse trending technology courses and select the one
+                that matches your career goals.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="course-container">
+
+        
+        <div class="course-card">
+            <h2>Web Development</h2>
+            <p class="desc">
+                Learn HTML, CSS, JavaScript and build responsive websites.
+            </p>
+
+            <div class="details">
+                <p><strong>Course Code:</strong> CS101</p>
+                <p><strong>Instructor:</strong> Computer Science Dept.</p>
+            </div>
+
+            <button onclick="selectCourse('Web Development')">
+                Select Course
+            </button>
+        </div>
+
+        
+        <div class="course-card">
+            <h2>Python Programming</h2>
+            <p class="desc">
+                Master Python programming and problem-solving skills.
+            </p>
+
+            <div class="details">
+                <p><strong>Course Code:</strong> CS102</p>
+                <p><strong>Instructor:</strong> IT Department</p>
+            </div>
+
+            <button onclick="selectCourse('Python Programming')">
+                Select Course
+            </button>
+        </div>
+
+    
+        <div class="course-card">
+            <h2>Artificial Intelligence</h2>
+            <p class="desc">
+                Explore machine learning, neural networks and AI systems.
+            </p>
+
+            <div class="details">
+                <p><strong>Course Code:</strong> AI201</p>
+                <p><strong>Instructor:</strong> AI & Data Science Dept.</p>
+            </div>
+
+            <button onclick="selectCourse('Artificial Intelligence')">
+                Select Course
+            </button>
+        </div>
+
+        
+        <div class="course-card">
+            <h2>Cyber Security</h2>
+            <p class="desc">
+                Learn ethical hacking, network security and cyber defense.
+            </p>
+
+            <div class="details">
+                <p><strong>Course Code:</strong> CS301</p>
+                <p><strong>Instructor:</strong> Cyber Security Dept.</p>
+            </div>
+
+            <button onclick="selectCourse('Cyber Security')">
+                Select Course
+            </button>
+        </div>
+
+    </section>
+
+
+    <section class="selection-box">
+        <h2>Your Selected Course</h2>
+        <p id="selected-course">
+            No course selected yet.
+        </p>
+    </section>
+
+
+    <footer>
+        <p>© 2026 Course Selection Portal | Fundamentals of Web Development</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
